@@ -1,9 +1,7 @@
-# hq-components
-HQ Component Library
+# HQ-components
+HQ Component Library - (Design System + Component Library)
 
-## Available Scripts
-
-
+## Installation & Usage
 Install dependencies:
 ```
 yarn
