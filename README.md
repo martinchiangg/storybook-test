@@ -7,7 +7,7 @@ Install dependencies:
 yarn
 ```
 
-Build Tailwind:
+Build Tailwind CSS file on your machine:
 ```
 yarn run build:tailwind
 ```
@@ -17,7 +17,7 @@ Run Storybook
 yarn run storybook
 ```
 
-Development mode with HMR (Running the React Application - curretnly just "helloworld" there):
+Optional: Running the React App in development mode - curretnly only "helloworld")
 ```
 yarn run dev-mac
 ```
@@ -47,13 +47,13 @@ These changes will impact both users and developers:
 
 **Developer Impact:** A well organized component architecture allows for improved debugging by way of named functions and component hierarchy, improved testability by way of functional, component-level unit tests, and faster iteration on design and user experience changes that can be applied app-wide instead of at each implementation.
 
+## To Do
+ - [] Add Jest tests
+
 ## Additional Notes
--  ** PostCSS 7 compatibility build** - see 
-https://tailwindcss.com/docs/installation#post-css-7-compatibility-build
+-  [**PostCSS 7 compatibility build issue**](https://tailwindcss.com/docs/installation#post-css-7-compatibility-build) 
 
-The compatibility build is identical to the main build in every way, so you aren't missing out on any features or anything like that.
-
-Once the rest of your tools have added support for PostCSS 8, you can move off of the compatibility build by re-installing Tailwind and its peer-dependencies using the latest tag:
+The compatibility build is identical to the main build in every way, so we are not missing out on any features. Once the support from PostCSS 8 is completed by PostCSS core team, we can move off of the compatibility build by re-installing Tailwind and its peer-dependencies using following command:
 
 ```
 yarn remove tailwindcss @tailwindcss/postcss7-compat
