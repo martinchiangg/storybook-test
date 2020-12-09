@@ -1,13 +1,11 @@
-npm WARN exec The following package was not found and will be installed: run
 Watching /Users/martinchiang/Axios/hq-components and all sub-directories not excluded by your .gitignore. Will not monitor dotfiles.
 Found & ignored ./.storybook/dist ; is listed in .gitignore
 Found & ignored ./node_modules ; is listed in .gitignore
-Found & ignored ./storybook-static ; is listed in .gitignore
 Found & ignored ./src/stories/button.css ; has ignored extension
 Found & ignored ./src/stories/header.css ; has ignored extension
 Found & ignored ./src/stories/page.css ; has ignored extension
 Found & ignored ./src/styles/index.css ; has ignored extension
 Found & ignored ./src/styles/tailwind.css ; has ignored extension
 
-Starting: --silent build-storybook -- --output-dir /var/folders/t5/mdhhn63n4xvb0y1zhgtwrd040000gn/T/chromatic--78626-u99RZFSHBtBp
+Starting: --silent build-storybook -- --output-dir /var/folders/t5/mdhhn63n4xvb0y1zhgtwrd040000gn/T/chromatic--78688-9rDmsvEnUXXi
 node: bad option: --silent
