@@ -7,5 +7,5 @@ Found & ignored ./src/stories/page.css ; has ignored extension
 Found & ignored ./src/styles/index.css ; has ignored extension
 Found & ignored ./src/styles/tailwind.css ; has ignored extension
 
-Starting: --silent build-storybook -- --output-dir /var/folders/t5/mdhhn63n4xvb0y1zhgtwrd040000gn/T/chromatic--78912-dxmMY2imyudK
-node: bad option: --silent
+Starting: --silent build-storybook -- --output-dir /var/folders/t5/mdhhn63n4xvb0y1zhgtwrd040000gn/T/chromatic--81255-L3IO4tZsyvKV
+/usr/local/Cellar/node/15.3.0/bin/node: bad option: --silent
