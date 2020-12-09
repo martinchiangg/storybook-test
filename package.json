@@ -11,7 +11,8 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build:tailwind": "postcss src/styles/index.css -o src/styles/tailwind.css",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token 41h8irx2u08"
   },
   "dependencies": {
     "@types/jest": "^26.0.16",
@@ -48,6 +49,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
+    "chromatic": "^5.4.0",
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
     "jest": "^26.6.3",
