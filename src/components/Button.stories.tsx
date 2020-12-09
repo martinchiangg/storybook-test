@@ -8,35 +8,10 @@ export default {
   title: "Button",
   decorators: [withKnobs],
 };
+// const Template = (args) => <Button {...args} />;
 
-const Template = (args) => <Button {...args} />;
-
-export const Active = Template.bind({});
-Active.args = {
-  text: "Review list",
-  iconPosition: "right",
-  children: "→",
-};
-
-export const Inactive = Template.bind({});
-Inactive.args = {
-  text: "Review list",
-  disabled: true,
-  iconPosition: "right",
-  children: "→",
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  text: "Return to Workspace",
-  buttonLevel: "secondary",
-  iconPosition: "left",
-  children: "←",
-};
-
-export const Tertiary = Template.bind({});
-Tertiary.args = {
-  text: "Edit",
-  buttonLevel: "tertiary",
-};
+export const Active = () => <Button>Review list → </Button>
+export const Inactive = () => <Button disabled>Review list → </Button>
+export const Secondary = () => <Button buttonLevel="secondary"> ← Return to Workspace</Button>
+export const Tertiary = () => <Button buttonLevel="tertiary">Edit</Button>
 

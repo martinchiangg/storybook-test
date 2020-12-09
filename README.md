@@ -17,9 +17,9 @@ Run Storybook
 yarn run storybook
 ```
 
-Optional: Running the React App in development mode - curretnly only "helloworld")
+Optional: Running the React App in HMR development mode - curretnly only "helloworld")
 ```
-yarn run dev-mac
+yarn run dev
 ```
 
 ## Status Quo
